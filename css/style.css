@@ -1,0 +1,30 @@
+body {
+    background-color: #009c97;
+}
+
+.container {
+    background-color: #00cfc8;
+    width: 55vw;
+    margin: auto;
+    padding: 35px;
+    margin-top: 50px;
+    border: 5px solid #03fff6;
+    border-radius: 30px;
+}
+
+.container>h1, h2{
+    text-align: center;
+}
+
+.container>form {
+    display: flex;
+    justify-content: center;
+}
+
+body > div > form > input[type=text]:nth-child(1) {
+    font-size: 22px;
+}
+
+body > div > form > input[type=text]:nth-child(3) {
+    font-size: 22px;
+}
